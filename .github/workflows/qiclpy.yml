@@ -30,7 +30,7 @@ jobs:
         run: uv sync --dev
 
       - name: Install nbqa and pylint
-        run: uv add nbqa pylint --dev
+        run: uv add nbqa pylint 
              uv add pandas
 
       # --- Setup Node.js for markdown linting ---
